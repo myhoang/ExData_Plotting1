@@ -1,4 +1,4 @@
-## Read concerned data 
+## Read concerned data with read_household_power_consumption.R
 
 source("read_household_power_consumption.R")
 

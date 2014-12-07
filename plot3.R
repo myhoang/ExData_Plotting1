@@ -1,4 +1,4 @@
-## Read concerned data 
+## Read concerned data with read_household_power_consumption.R
 
 source("read_household_power_consumption.R")
 
@@ -11,7 +11,7 @@ with(data_set,
           type="l",
           main="",
           xlab="",
-          ylab="Global Active Power (kilowatts)")
+          ylab="Energy Sub Metering")
      )
 with(data_set, 
      lines(Date_Time, 
